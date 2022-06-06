@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using Windows.Win32.Foundation;
@@ -27,11 +28,10 @@ namespace ClipboardFileGroup
             Marshal.Copy(dragDropData, 0, byteStream, 4);
             GlobalUnlock(hDropEffect);
 
-            int clpSize = sizeof(DROPFILES) + sizeof(char); // for arr-terminating \0
-            foreach (string path in paths)
-            {
-                clpSize += sizeof(char) * (path.Length + 1);
-            }
+            int clpSize =
+                sizeof(DROPFILES) +
+                paths.Sum(p => sizeof(char) * (p.Length + 1)) +
+                sizeof(char); // for arr-terminating \0
 
             HANDLE hDrop = (HANDLE)GlobalAlloc(GLOBAL_ALLOC_FLAGS.GHND, (UIntPtr)clpSize);
             DROPFILES* df = (DROPFILES*)GlobalLock(hDrop);
