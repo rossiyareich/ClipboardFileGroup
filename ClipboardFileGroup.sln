@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipboardFileGroup", "ClipboardFileGroup.csproj", "{AAFD39E9-FF82-4285-A0DF-C2E27CE44C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipboardFileGroup.Examples", "..\ClipboardFileGroup.Examples\ClipboardFileGroup.Examples.csproj", "{1EC3B700-F761-4A6A-AB40-43D6F1459539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAFD39E9-FF82-4285-A0DF-C2E27CE44C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFD39E9-FF82-4285-A0DF-C2E27CE44C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFD39E9-FF82-4285-A0DF-C2E27CE44C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFD39E9-FF82-4285-A0DF-C2E27CE44C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC3B700-F761-4A6A-AB40-43D6F1459539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC3B700-F761-4A6A-AB40-43D6F1459539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC3B700-F761-4A6A-AB40-43D6F1459539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC3B700-F761-4A6A-AB40-43D6F1459539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C74CA48-B7CA-48DE-BFC7-A38D7A322044}
+	EndGlobalSection
+EndGlobal

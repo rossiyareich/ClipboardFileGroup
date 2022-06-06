@@ -1,0 +1,12 @@
+﻿GlobalAlloc
+GlobalLock
+GlobalUnlock
+OpenClipboard
+EmptyClipboard
+SetClipboardData
+CloseClipboard
+HDROP
+DROPFILES
+GetClipboardData
+DragQueryFileW
+RegisterClipboardFormatW 
