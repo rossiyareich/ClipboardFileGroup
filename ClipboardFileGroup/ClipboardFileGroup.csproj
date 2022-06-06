@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1-windows</TargetFramework>
     <Nullable>annotations</Nullable>
     <Authors>RossiyaReich</Authors>
-    <PackageLicenseFile>D:\Software Development\Visual Studio\ClipboardFileGroup\LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/rossiyareich/ClipboardFileGroup</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -19,6 +19,7 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+    <None Include="..\LICENSE" Pack="true" PackagePath=""/>
   </ItemGroup>
 
   <ItemGroup>
